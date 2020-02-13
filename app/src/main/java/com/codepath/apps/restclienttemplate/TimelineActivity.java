@@ -10,7 +10,7 @@ import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
 import okhttp3.Headers;
 
 public class TimelineActivity extends AppCompatActivity {
-    public final String TAG = "TimelineActivity";
+    public static final String TAG = "TimelineActivity";
 
     TwitterClient client;
 
