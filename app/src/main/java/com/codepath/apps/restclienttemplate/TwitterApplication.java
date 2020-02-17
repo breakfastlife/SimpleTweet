@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 import androidx.room.Room;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.facebook.stetho.Stetho;
 
@@ -16,8 +17,7 @@ import com.facebook.stetho.Stetho;
  *     // use client to send requests to API
  *
  */
-public class TwitterApplication extends Application {
-
+public class TwitterApplication extends Application{
     MyDatabase myDatabase;
 
     @Override
